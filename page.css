@@ -1,0 +1,47 @@
+.zyl-page__item,.zyl-page__botton{
+    min-width: 25px;
+    height: 25px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    border: 1px grey solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.zyl-page__item{
+    margin-left: 10px;
+}
+.zyl-page__botton{
+    padding: 0 5px;
+}
+.zyl-page__botton.next{
+    margin-left: 10px;
+}
+.zyl-page__item.on{
+    background-color: rgb(23, 128, 214);
+    color: white;
+}
+.page-input{
+    display: inline-block;
+    height: 25px;
+    width: 30px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    margin-left: 5px;
+}
+.page-input:focus{
+    box-shadow: 0 0 4 0px rgb(23, 128, 214);
+}
+.jump-label{
+    display: inline-block;
+    margin-left: 10px;
+}
+.ellipsis{
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+.pageitems-container{
+    list-style: none;
+    display: inline-block;
+}
