@@ -66,6 +66,7 @@ var Page = (function(window,document){
                 if(Number.isInteger(inputText)){
                     if(inputText>=1 && inputText<=_totalPage){
                         _current = inputText;
+						t.update();
                         _fn.call(_context,e,_current);
                     }else{
                         alert('请输入一个有效数字')
