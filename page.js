@@ -106,18 +106,3 @@ var Page = (function(window,document){
     return page;
 })(window,document)
 
-
-window.a = 'a';
-var option = {
-    currentPage:1,
-    itemPerPage: 10,
-    totalItem: 101,
-    click:function(e,clickedPage){
-        console.log(clickedPage,e)
-        console.log(this.a)
-    },
-    context:this
-}
-var mypage = new Page(option);
-console.log(mypage)
-
